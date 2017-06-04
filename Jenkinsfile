@@ -1,7 +1,7 @@
 node {
 
   stage ('Checkout') {
-    git 'https://github.com/phodal/growth-studio'
+    git 'git@github.com:europelee/growth-studio.git'
   }
 
   stage ('Create Virtualenv') {
