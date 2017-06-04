@@ -1,7 +1,7 @@
 node {
 
   stage ('Checkout') {
-    git 'git@github.com:europelee/growth-studio.git'
+    git 'https://github.com/europelee/growth-studio'
   }
 
   stage ('Create Virtualenv') {
