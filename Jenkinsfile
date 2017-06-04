@@ -1,7 +1,7 @@
 node {
 
   stage ('Checkout') {
-    git 'git@github.com:europelee/growth-studio.git'
+    git credentialsId: 'fdd5f1a1-e74b-4cca-b8e3-18bc4b73ba7f', url: 'git@github.com:europelee/growth-studio.git'
   }
 
   stage ('Create Virtualenv') {
